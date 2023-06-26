@@ -1,1 +1,11 @@
-index: my-page1.md
+index: index.md
+subsection:
+  - title: Titre de la première sous-section
+    page: my-page1.md
+  - title: Titre de la deuxième sous-section
+    index: my-page2.md
+    subsection:
+      - title: Titre de la première sous-sous-section
+        page: my-page3.md
+      - title: Titre de la deuxième sous-sous-section
+        page: my-page4.md

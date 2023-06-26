@@ -5,7 +5,8 @@ lazy val root = project
   .settings(
     Compile / doc / scalacOptions ++= Seq(
       "-siteroot", "docs",
-      "-no-link-asset-warnings",
+      // "-no-link-asset-warnings",
+      "-social-links:custom::https://joyofcoding.org/sponsoring.html::circleLogo.png::circleLogo.png",
       "-scastie-configuration",
       """    libraryDependencies ++= Seq(
       "org.scalameta" %% "munit" % "0.7.29" % Test,

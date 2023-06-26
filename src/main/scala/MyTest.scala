@@ -10,9 +10,10 @@ import exception.scala.Foo
 class MyTest:
     def foo = 1
 
-/**
- * @param name foo
- * @throws Foo if <code>specText</code> or any passed test tag is <code>null</code>
- */
-object MyTestObject:
-    def foo2 = 1
+// /**
+//  * @param name foo
+//  * @throws Foo if <code>specText</code> or any passed test tag is <code>null</code>
+//  */
+// object MyTestObject:
+//     def foo2 = 1
+//     import exception.scala.Foo

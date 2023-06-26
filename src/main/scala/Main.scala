@@ -13,3 +13,12 @@ object ExternalLibraryExample extends App:
   printReversed(str)
 
 
+// trait Ctx
+
+// object Ops:
+//   extension (i: Int)
+//     def foo() = i + 1
+//   extension (using Ctx)(i: Int)
+//     def bar() = i + 2
+//   extension (i: Int)(using Ctx)
+//     def baz() = i + 3
